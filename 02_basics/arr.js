@@ -1,4 +1,5 @@
 // arrays
+/*
 let num=[1,22,3,4,5];
 //it can contain diff datatypes elements
 //it has push and pop and shift and unshift(for inserting elemnt at start)
@@ -32,8 +33,30 @@ console.log(sli);
 const spli=num.splice(1,3);
 console.log("c",num);
 console.log(spli);
-
+*/
 
 //;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
+let num=[1,23,4,5];
+let num2=[6,7,8,9];
+// num.push(num2);
+// console.log(num);
+
+
+
+let num3=num.concat(num2);
+console.log(num3);
+//see the difference push treats it as an elemnt and pushes whole array as an element
+//but concat merge both arrays elemnts
+//we can use this instead of concat
+
+const num4=[...num,...num2];
+console.log(num4);
+
+//flat property which arrays of arrays of arrays into a single array
+
+
+console.log(Array.from("12345"));
+
+// array of   is a property 
 
